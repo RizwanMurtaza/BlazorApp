@@ -1,0 +1,2 @@
+﻿dotnet ef migrations add "Intial" --project src\Migrators\Migrators.MySQL --startup-project src\Server.UI --output-dir Migrations
+Update-database -context ApplicationDbContext -migration SampleMigration1
